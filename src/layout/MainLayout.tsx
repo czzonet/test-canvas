@@ -17,5 +17,5 @@ const Style = styled.div`
   width: 100vw;
   height: 100vh;
 
-  background-color: var(--blue-normal);
+  // background-color: var(--blue-normal);
 `;

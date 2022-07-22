@@ -1,11 +1,14 @@
 import React from "react";
 import styled from "styled-components";
+import { CanvasDraw } from "../components/CanvasDraw";
 import { Hello } from "../components/Hello";
 
 export const HomePage = () => {
   return (
     <Style>
-      <Hello></Hello>
+      {/* <Hello></Hello>
+       */}
+      <CanvasDraw></CanvasDraw>
     </Style>
   );
 };
